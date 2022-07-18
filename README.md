@@ -27,6 +27,13 @@ Notes: Currently, [vscode-leetcode](https://github.com/LeetCode-OpenSource/vscod
 }
 ```
 
+## Problems & Solutions
+
+
+|  #  |                                                           Title                                                           |                                       README                                       | Difficulty |                                            LeetCode                                            |        TAGS        |
+| :-: | :-----------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------: | :--------: | :--------------------------------------------------------------------------------------------: | :----------------: |
+|  1  |                              [Two Sum](src/LeetCodeSolutions/Difficulty/Easy/1.two-sum.cs)                              |               [📗](src/LeetCodeSolutions/Difficulty/Easy/README.md)                |    Easy    |               [LeetCode](https://leetcode.com/problems/two-sum)                |       Array       |
+
 ## References
 - [NikiforovAll/leetcode-playground-template](https://github.com/NikiforovAll/leetcode-playground-template)
 - [https://github.com/haoel/leetcode](https://github.com/haoel/leetcode)
