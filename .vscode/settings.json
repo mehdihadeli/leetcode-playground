@@ -1,0 +1,16 @@
+{
+    "leetcode.workspaceFolder": "d:\\Github\\leetcode-playground\\src\\LeetCodeSolutions",
+    "leetcode.defaultLanguage": "csharp",
+    "leetcode.showDescription": "Both",
+    "leetcode.filePath": {
+
+
+
+
+        "default": {
+            "folder": "Difficulty/${difficulty}",
+            "filename": "${id}.${kebab-case-name}.${ext}"
+        }
+    },
+    "leetcode.hint.configWebviewMarkdown": false
+}
