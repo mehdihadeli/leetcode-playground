@@ -2,7 +2,7 @@
 
 [![Build-Test](https://github.com/mehdihadeli/leetcode-playground/actions/workflows/build-test.yml/badge.svg?branch=main&style=flat-square)](https://github.com/mehdihadeli/leetcode-playground/actions/workflows/build-test.yml)
 [![codecov](https://codecov.io/gh/mehdihadeli/leetcode-playground/branch/main/graph/badge.svg?style=flat-square)](https://codecov.io/gh/mehdihadeli/leetcode-playground)
-[![GitHub License](https://img.shields.io/github/license/mehdihadeli/leetcode-playground)](./LICENSE.md)
+[![GitHub License](https://img.shields.io/github/license/mehdihadeli/leetcode-playground)](./LICENSE)
 
 ## Tools
 - [LeetCode-OpenSource/vscode-leetcode](https://github.com/LeetCode-OpenSource/vscode-leetcode) - Solve LeetCode problems in VS Code ([Login to VS Code LeetCode](https://github.com/LeetCode-OpenSource/vscode-leetcode/issues/478#issuecomment-1046287835))
