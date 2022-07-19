@@ -4,6 +4,7 @@
 [![codecov](https://codecov.io/gh/mehdihadeli/leetcode-playground/branch/main/graph/badge.svg?style=flat-square)](https://codecov.io/gh/mehdihadeli/leetcode-playground)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/mehdihadeli/leetcode-playground/blob/main/LICENCE)
 
+![leetcode-playground](https://socialify.git.ci/mehdihadeli/leetcode-playground/image?description=1&forks=1&issues=1&language=1&name=1&owner=1&pattern=Circuit%20Board&pulls=1&stargazers=1&theme=Light)
 
 ## Tools
 - [LeetCode-OpenSource/vscode-leetcode](https://github.com/LeetCode-OpenSource/vscode-leetcode) - Solve LeetCode problems in VS Code ([Login to VS Code LeetCode](https://github.com/LeetCode-OpenSource/vscode-leetcode/issues/478#issuecomment-1046287835))
