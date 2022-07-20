@@ -32,7 +32,9 @@ Notes: Currently, [vscode-leetcode](https://github.com/LeetCode-OpenSource/vscod
 
 |  #  |                                                           Title                                                           |                                       README                                       | Difficulty |                                            LeetCode                                            |        TAGS        |
 | :-: | :-----------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------: | :--------: | :--------------------------------------------------------------------------------------------: | :----------------: |
-|  1  |                              [Two Sum](src/LeetCodeSolutions/Difficulty/Easy/1.two-sum.cs)                              |               [📗](src/LeetCodeSolutions/Difficulty/Easy/README.md)                |    Easy    |               [LeetCode](https://leetcode.com/problems/two-sum)                |       Array       |
+|  1  |                              [Two Sum](src/LeetCodeSolutions/Difficulty/Easy/1.two-sum.cs)                              |               [📗](src/LeetCodeSolutions/Difficulty/Easy/docs/1.two-sum.README.md)                |    Easy    |               [LeetCode](https://leetcode.com/problems/two-sum)                |       Array       |
+|  557  |                              [Reverse Words in a String III](src/LeetCodeSolutions/Difficulty/Easy/557.reverse-words-in-a-string-iii.cs)                              |               [📗]()                |    Easy    |               [LeetCode](https://leetcode.com/problems/reverse-words-in-a-string-iii/)                |       String, Two Pointers       |
+
 
 ## References
 - [NikiforovAll/leetcode-playground-template](https://github.com/NikiforovAll/leetcode-playground-template)

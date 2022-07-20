@@ -32,11 +32,12 @@
 
 
 // @lc code=start
+
 namespace LeetCodeSolutions.Difficulty.Easy;
 
 public class Solution
 {
-    public int[] TwoSum(int[] nums, int target)
+    public static int[] TwoSum(int[] nums, int target)
     {
         var map = new Dictionary<int, int>(nums.Length);
         for (var i = 0; i < nums.Length; i++)
@@ -44,10 +45,12 @@ public class Solution
             var curr = nums[i];
             if (map.ContainsKey(curr))
             {
-                return new int[] { map[curr], i };
+                return new int[] {map[curr], i};
             }
+
             map[target - nums[i]] = i;
         }
+
         return null;
     }
 }
