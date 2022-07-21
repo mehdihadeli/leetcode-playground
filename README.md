@@ -34,7 +34,7 @@ Notes: Currently, [vscode-leetcode](https://github.com/LeetCode-OpenSource/vscod
 ## Problems & Solutions
 
 
-|  #  |Problem | C# Solution | Go Solution | README| Difficulty |TAGS |
+|  #  |Problem | C# | Go | README| Difficulty |TAGS |
 | :-: | :-:    | :-:         | :-:         | :-:   | :--:       | :--:|
 |  1  | [Two Sum](https://leetcode.com/problems/two-sum) | [Solution](problems/Difficulty/Easy/1.two-sum/csharp/1.two-sum.cs)              | [Solution](problems/Difficulty/Easy/1.two-sum/golang/1.two-sum.go)|[📗](problems/Difficulty/Easy/readme.md)  |  Easy | Array, Hash Table | 
 | 557  | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | [Solution](problems/Difficulty/Easy/557.reverse-words-in-a-string-iii/csharp/557.reverse-words-in-a-string-iii.cs) | [Solution](problems/Difficulty/Easy/557.reverse-words-in-a-string-iii/golang/557.reverse-words-in-a-string-iii.go) | [📗](problems/Difficulty/Easy/557.reverse-words-in-a-string-iii/readme.md)   |    Easy    |  String, Two Pointers  |
