@@ -16,8 +16,4 @@
     <PackageReference Include="xunit.analyzers" Version="0.10.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\LeetCodeSolutions\LeetCodeSolutions.csproj" />
-  </ItemGroup>
-
 </Project>

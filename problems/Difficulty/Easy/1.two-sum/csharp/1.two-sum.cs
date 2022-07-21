@@ -33,7 +33,7 @@
 
 // @lc code=start
 
-namespace LeetCodeSolutions.Difficulty.Easy;
+namespace leetcode.Difficulty.Easy._1.two_sum.csharp;
 
 public class Solution
 {

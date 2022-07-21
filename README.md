@@ -15,28 +15,32 @@ Notes: Currently, [vscode-leetcode](https://github.com/LeetCode-OpenSource/vscod
 
 ``` json
 {
-    "leetcode.workspaceFolder": "d:\\Github\\leetcode-playground\\src\\LeetCodeSolutions",
-    "leetcode.defaultLanguage": "csharp",
-    "leetcode.showDescription": "Both",
+    "leetcode.workspaceFolder": "d:\\Github\\leetcode-playground\\problems",
     "leetcode.filePath": {
+        
         "default": {
-            "folder": "Difficulty/${difficulty}",
+            "folder": "Difficulty/${difficulty}/${id}.${kebab-case-name}/${language}",
             "filename": "${id}.${kebab-case-name}.${ext}"
         }
     },
-    "leetcode.hint.configWebviewMarkdown": false
+    "leetcode.hint.configWebviewMarkdown": false,
+    "leetcode.useEndpointTranslation": false,
+    "leetcode.hint.setDefaultLanguage": false,
+    "leetcode.hint.commentDescription": false,
+    "leetcode.showDescription": "Both"
 }
 ```
 
 ## Problems & Solutions
 
 
-|  #  |                                                           Title                                                           |                                       README                                       | Difficulty |                                            LeetCode                                            |        TAGS        |
-| :-: | :-----------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------: | :--------: | :--------------------------------------------------------------------------------------------: | :----------------: |
-|  1  |                              [Two Sum](src/LeetCodeSolutions/Difficulty/Easy/1.two-sum.cs)                              |               [📗](src/LeetCodeSolutions/Difficulty/Easy/docs/1.two-sum.README.md)                |    Easy    |               [LeetCode](https://leetcode.com/problems/two-sum)                |       Array       |
-|  557  |                              [Reverse Words in a String III](src/LeetCodeSolutions/Difficulty/Easy/557.reverse-words-in-a-string-iii.cs)                              |               [📗]()                |    Easy    |               [LeetCode](https://leetcode.com/problems/reverse-words-in-a-string-iii/)                |       String, Two Pointers       |
+|  #  |Problem | C# Solution | Go Solution | README| Difficulty |TAGS |
+| :-: | :-:    | :-:         | :-:         | :-:   | :--:       | :--:|
+|  1  | [Two Sum](https://leetcode.com/problems/two-sum) | [Solution](problems/Difficulty/Easy/1.two-sum/csharp/1.two-sum.cs)              | [Solution](problems/Difficulty/Easy/1.two-sum/golang/1.two-sum.go)|[📗](problems/Difficulty/Easy/readme.md)  |  Easy | Array, Hash Table | 
+| 557  | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | [Solution](problems/Difficulty/Easy/557.reverse-words-in-a-string-iii/csharp/557.reverse-words-in-a-string-iii.cs) | [Solution](problems/Difficulty/Easy/557.reverse-words-in-a-string-iii/golang/557.reverse-words-in-a-string-iii.go) | [📗](problems/Difficulty/Easy/557.reverse-words-in-a-string-iii/readme.md)   |    Easy    |  String, Two Pointers  |
 
 
 ## References
+- [https://github.com/halfrost/LeetCode-Go](https://github.com/halfrost/LeetCode-Go)
 - [NikiforovAll/leetcode-playground-template](https://github.com/NikiforovAll/leetcode-playground-template)
 - [https://github.com/haoel/leetcode](https://github.com/haoel/leetcode)

@@ -1,7 +1,7 @@
-namespace Leetcode.Tests.Difficulty.Easy;
+namespace leetcode.Difficulty.Easy._557.reverse_words_in_a_string_iii.csharp;
 
-using Xunit;
 using FluentAssertions;
+using Xunit;
 
 public class ReverseWorldsInAStringIii
 {

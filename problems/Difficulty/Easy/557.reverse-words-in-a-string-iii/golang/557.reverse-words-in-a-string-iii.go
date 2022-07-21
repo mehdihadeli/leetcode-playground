@@ -1,16 +1,16 @@
 /*
- * @lc app=leetcode id=557 lang=csharp
+ * @lc app=leetcode id=557 lang=golang
  *
  * [557] Reverse Words in a String III
  *
  * https://leetcode.com/problems/reverse-words-in-a-string-iii/description/
  *
  * algorithms
- * Easy (79.54%)
- * Likes:    3049
+ * Easy (79.57%)
+ * Likes:    3055
  * Dislikes: 183
- * Total Accepted:    487.2K
- * Total Submissions: 612.3K
+ * Total Accepted:    487.8K
+ * Total Submissions: 613.1K
  * Testcase Example:  `"Let's take LeetCode contest"`
  *
  * Given a string s, reverse the order of characters in each word within a
@@ -38,22 +38,28 @@
  */
 
 // @lc code=start
+package leetcode
 
-using System.Text;
+import "strings"
 
-public class Solution
-{
-    public static string ReverseWords(string s)
-    {
-        var words = s.Split(" ");
-        var res = new StringBuilder();
-        foreach (var word in words)
-        {
-            res.Append(new string(word.Reverse().ToArray()));
-            res.Append(' ');
-        }
-        return res.ToString().Trim();
-    }
+func reverseWords(s string) string {
+	ss := strings.Split(s, " ")
+	for i, s := range ss {
+		ss[i] = setback(s)
+	}
+	return strings.Join(ss, " ")
 }
+
+func setback(s string) string {
+	bytes := []byte(s)
+	i, j := 0, len(bytes)-1
+	for i < j {
+		bytes[i], bytes[j] = bytes[j], bytes[i]
+		i++
+		j--
+	}
+	return string(bytes)
+}
+
 // @lc code=end
 

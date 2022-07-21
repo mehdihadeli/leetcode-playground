@@ -1,7 +1,6 @@
-﻿namespace Leetcode.Tests.Difficulty.Easy;
+﻿namespace leetcode.Difficulty.Easy._1.two_sum.csharp;
 
 using FluentAssertions;
-using LeetCodeSolutions.Difficulty.Easy;
 using Xunit;
 
 public class TwoSumTest
